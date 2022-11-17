@@ -1,0 +1,121 @@
+body{
+    font-family: montserrat;
+    background:#374f75;
+    /* height: 100vh; não usar nunca*/
+    color: #a6a6a6;
+}
+
+.container{
+    width: 100%;
+}
+
+
+
+div.fav {
+    float: left;
+    width: 30%;
+    width: 700px;
+    margin-left: 8.7%;
+    background: #1d2e4a;
+    border-radius: 10px;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+
+
+.txt_input input:focus ~ label,
+.txt_input input:valid ~ label{
+    top: -5px;
+    color: #2691d9;
+}
+
+.txt_input input:focus ~ span::before,
+.txt_input input:valid ~ span::before{
+    width: 100%;
+}
+
+input[type="submit"]{
+    width: 25%;
+    height: 50px;
+    border: 1px solid;
+    background: #2691d9;
+    border-radius: 25px;
+    font-size: 18px;
+    color: silver;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover{
+    border-color: #2691d9;
+    transition: .5s;
+}
+
+
+.link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: silver;
+}
+
+.link a{
+    color:#2691d9;
+    text-decoration:none;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.header{
+    margin: 0;
+    padding: 0 1rem;
+    font-family: montserrat;
+    background: #1d2e4a;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+
+/*.header a{
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}*/
+
+#add img{
+    width: 40px;
+}
+
+#logout img{
+    width: 32px;
+}
+
+.header h1{
+    color: aliceblue;
+}
+
+
+
+.fav h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+    color:silver;
+    border-bottom: 1px solid silver;
+}
+
+
+h2{
+    margin-left: 10px;
+}
+
+
+

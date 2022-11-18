@@ -39,7 +39,7 @@ if(isset($dados['voltar_x'])){
     $dell_user->execute([$_SESSION['id']]);
 
     $_SESSION['msg']='<script>window.alert("Usuário deletado com sucesso!");</script>';
-    header("Location: .././forms/index.php");
+    header("Location: ../index.php");
 
 }
 

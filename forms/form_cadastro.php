@@ -52,7 +52,7 @@ session_start();
             </div>
             <input type="submit" value="Cadastrar">
             <div class="link">
-                Já tem cadastro? <a href="index.php">Logar</a>
+                Já tem cadastro? <a href="../index.php">Logar</a>
             </div>
         </form>
     </div>

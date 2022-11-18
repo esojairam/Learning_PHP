@@ -1,12 +1,14 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <?php
-    session_start();
     if(!isset($_SESSION['id'])==true){
         session_unset();
-        echo '<script>window.alert("Não está logado!");window.location.href="index.php";</script>';
+        echo '<script>window.alert("Não está logado!");window.location.href="../index.php";</script>';
     }
     ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

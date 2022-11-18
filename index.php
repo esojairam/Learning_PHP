@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include_once ".././php/conn.php";
+include_once "./php/conn.php";
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -9,7 +9,7 @@ include_once ".././php/conn.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".././css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Login</title>
 </head>
 <body>
@@ -22,7 +22,7 @@ include_once ".././php/conn.php";
                 session_destroy();
             }
         ?>
-        <form action=".././php/login.php" method="post">
+        <form action="./php/login.php" method="post">
             <div class="txt_input">
                 <input type="text" name="user" required style="color:silver;">
                 <span></span>
@@ -35,7 +35,7 @@ include_once ".././php/conn.php";
             </div>
             <input type="submit" value="Login" id="submit">
             <div class="link">
-                Não tem uma conta? <a href="form_cadastro.php">Cadastre-se</a>
+                Não tem uma conta? <a href="./forms/form_cadastro.php">Cadastre-se</a>
             </div>
         </form>
     </div>
